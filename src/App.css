@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  font-family: Secular One , sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.game-header {
+  align-items: center;
+  background-color: #0a37c9;
+  color: #ecebe2;
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  padding: 12px;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.game-header a h1, .game-header a:visited h1 {
+  align-self: center;
+  color: #f7ca04;
+  font-family: Forbidden-Knowledge , sans-serif;
+  font-size: 3rem;
+  height: 48px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.game-header a:hover {
+  text-decoration: none;
+}
+
+.main-content {
+  align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+.new-card-area {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #cfe608;
+  border-bottom: 4px solid #192f19;
+  color: #010300;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 18px 0 32px;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.form-new-card {
+  align-items: center;
+  display: flex;
+  gap: 23px;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.card-filter-area, .deck, .Home-Container, .Results-Container {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-filter-area, .deck, .Results-Container {
+  background-image: url('./data/card-images/background.jpg');
+}
+
+@media screen and ( max-width : 679px ) {
+
+  .game-header {
+    padding: 6px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .game-header h1 {
+    align-self: center;
+  }
+
+  .form-new-card {
+    flex-direction: column;
   }
 }

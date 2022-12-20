@@ -1,24 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Route, Switch } from 'react-router-dom';
+import HomeScreen from './pages/HomeScreen';
+import Game from './pages/Game';
+import GameDeck from './pages/GameDeck';
 import './App.css';
+import Results from './pages/Results';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Switch>
+      <Route exact path="/" component={ HomeScreen } />
+      <Route path="/game" component={ Game } />
+      <Route path="/deck" component={ GameDeck } />
+      <Route path="/results" component={ Results } />
+    </Switch>
   );
 }
 
