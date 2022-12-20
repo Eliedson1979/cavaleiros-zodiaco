@@ -1,6 +1,6 @@
 # Cavaleiros-Zodíaco
 
-![Preview Projeto](./src/imgs/Readme-preview.png)
+![Preview Projeto]( ./imgs/Readme-preview.png)
 
 ## Acesse o projeto clicando <a href="">AQUI</a>
 
