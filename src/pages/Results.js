@@ -16,7 +16,7 @@ class Results extends Component {
     console.log(wins, loses);
     return (
       <main className="Results-Container">
-        <h1>Resultado</h1>
+        <h1>Resultados</h1>
         <div>
           <p>{`${wins === 1 ? 'Vitória' : 'Vitórias'}: ${wins}`}</p>
           <p>{`${loses === 1 ? 'Derrota' : 'Derrotas'}: ${loses}`}</p>
