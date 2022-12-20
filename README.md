@@ -2,7 +2,7 @@
 
 ![Preview Projeto]( ./imgs/Readme-preview.png)
 
-## Acesse o projeto clicando <a href="">AQUI</a>
+## Acesse o projeto clicando <a href="https://eliedson1979.github.io/cavaleiros-zodiaco/#/">AQUI</a>
 
 <br />
 
