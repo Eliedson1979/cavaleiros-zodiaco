@@ -25,7 +25,7 @@ Vou continuar evoluindo ele com o tempo!
 ### 1 - Clone o repositório:
 
 ```
-
+git clone git@github.com:Eliedson1979/cavaleiros-zodiaco.git
 ```
 
 ### 2 - Apos ter o repositório clonado em sua maquina, execute este comando para acessar a pasta do projeto:
