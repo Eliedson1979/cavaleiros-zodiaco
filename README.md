@@ -72,7 +72,7 @@ Abrindo na porta padrão que o React usa: <http://localhost:3000/> em seu navega
 ## ⚙️ Tecnologias
 
 * HTML5
-* CSS
+* CSS3
 * JavaScript
 * React.js
 * Redux
